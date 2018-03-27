@@ -1,0 +1,40 @@
+.nav {
+    background: linear-gradient(90deg, rgba($white, 0), rgba($white, 1) 1%, rgba($white, 1) 99%, rgba($white, 0));
+    top: 0;
+    position: fixed;
+    width: 89.5%;
+    max-width: 100rem;
+
+    img {
+        padding-left: 2rem;
+    }
+
+    ul {
+        float: right;
+        padding-right: 2rem;
+
+        li {
+            display: inline-block;
+            margin-top: .7rem;
+
+            a {
+                text-decoration: none;
+                color: $dark-grey;
+                font-family: 'Mukta Mahee', Arial, sans-serif;
+                font-weight: 400;
+                font-size: 2rem;
+                border-bottom: .4rem solid transparent;
+                transition: border-bottom .2s;
+
+                &:hover {
+                    border-bottom: .4rem solid $color-lime;
+                }
+            }
+            
+            &:not(:last-child){
+                margin-right: 2rem;
+            }
+        }
+    }
+
+}

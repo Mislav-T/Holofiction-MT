@@ -1,0 +1,34 @@
+html {
+    font-size: 62.5%; // = 10px
+}
+
+#comments {
+    width: 70%;
+    padding-top: 5rem;
+    margin: 0 auto;
+
+    h2, h3 {
+        font-family: 'Times New Roman', serif;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 2.6rem;
+        color: $light-grey;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        color: $color-lime;
+    }
+
+    p {
+        width: 100%;
+        line-height: 2rem;
+        font-family: 'Mukta Mahee', Arial, sans-serif;
+        font-size: 1.6rem;
+        color: $light-grey;
+        padding: 1rem;
+        border-bottom: 2px solid $color-lime;
+    }
+}

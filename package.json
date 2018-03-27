@@ -1,0 +1,14 @@
+{
+  "name": "holofiction-zadatak",
+  "version": "1.0.0",
+  "description": "testni zadatak",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Mislav Tomljanovic",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  }
+}
